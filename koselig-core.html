@@ -391,7 +391,7 @@ section.free.closing{padding:clamp(90px,18vh,190px) clamp(24px,5vw,72px);}
 .f-term h4 .lat{font-family:var(--latin);font-style:italic;font-size:.85em;color:var(--sage-soft);font-weight:400;letter-spacing:.06em;}
 .f-term p{font-size:12.5px;line-height:2;color:var(--on-deep-soft);}
 .f-def{margin-top:clamp(14px,2.5vh,22px);border:1px solid rgba(216,221,208,.35);padding:clamp(12px,2vw,18px) clamp(14px,2.2vw,22px);font-size:12px;line-height:1.95;color:var(--on-deep-soft);max-width:660px;}
-.f-sublink{display:inline-flex;margin-top:clamp(16px,3vh,26px);font-size:13px;letter-spacing:.08em;color:var(--sage-soft);text-decoration:none;border-bottom:1px solid rgba(216,221,208,.4);padding-bottom:3px;transition:border-color .3s,color .3s;}
+.f-sublink{display:inline-flex;align-self:flex-start;width:auto;max-width:100%;margin-top:clamp(16px,3vh,26px);font-size:12.5px;letter-spacing:.08em;color:var(--sage-soft);text-decoration:none;border-bottom:1px solid rgba(216,221,208,.4);padding-bottom:3px;white-space:nowrap;transition:border-color .3s,color .3s;}
 .f-sublink:hover{color:var(--on-deep);border-color:var(--on-deep);}
 section[data-theme="light"] .f-sublink{color:var(--deep2);border-color:var(--line);}
 section[data-theme="light"] .f-sublink:hover{color:var(--ink);border-color:var(--deep2);}
@@ -428,7 +428,7 @@ section[data-theme="light"] .f-sublink:hover{color:var(--ink);border-color:var(-
 .f8-lead{font-size:clamp(12.5px,1.5vw,14.5px);line-height:2.1;color:#DCD9CC;max-width:34em;margin:0 auto;}
 .f8-btns{margin-top:clamp(26px,4.5vh,42px);}
 .f8-note{margin-top:12px;font-size:11.5px;letter-spacing:.1em;color:#C7CCC0;}
-.f8-sub{display:inline-block;margin-top:clamp(18px,3vh,26px);font-size:13px;letter-spacing:.08em;color:#F5F2EA;text-decoration:none;border-bottom:1px solid rgba(245,242,234,.75);padding-bottom:3px;transition:border-color .3s;}
+.f8-sub{display:inline-block;margin-top:clamp(18px,3vh,26px);font-size:12.5px;letter-spacing:.08em;white-space:nowrap;color:#F5F2EA;text-decoration:none;border-bottom:1px solid rgba(245,242,234,.75);padding-bottom:3px;transition:border-color .3s;}
 .f8-sub:hover{border-color:#F1EEE5;}
 .f8-teaser{margin-top:clamp(28px,5vh,46px);font-family:var(--latin);font-style:italic;font-size:13px;letter-spacing:.22em;color:#BFA679;}
 
@@ -459,7 +459,7 @@ section[data-theme="light"] .f-sublink:hover{color:var(--ink);border-color:var(-
   display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;}
 .sf-name{font-size:12px;letter-spacing:.14em;color:#C7CCC0;}
 .sf-links{display:flex;gap:22px;}
-.sf-links a{font-size:11.5px;letter-spacing:.1em;color:#C3C9BC;text-decoration:none;border-bottom:1px solid rgba(199,204,192,.3);padding-bottom:2px;transition:color .3s,border-color .3s;}
+.sf-links a{font-size:11.5px;letter-spacing:.08em;color:#C3C9BC;text-decoration:none;border-bottom:1px solid rgba(199,204,192,.45);padding-bottom:3px;white-space:nowrap;transition:color .3s,border-color .3s;}
 .sf-links a:hover{color:#EDEAE1;border-color:#EDEAE1;}
 .sf-copy{font-family:var(--latin);font-size:11px;letter-spacing:.14em;color:#8B928A;}
 @media (max-width:860px){
@@ -507,7 +507,7 @@ section.free .inner{width:min(1080px,100%);margin:0 auto;}
   padding:15px 34px;font-size:13.5px;letter-spacing:.1em;text-decoration:none;font-weight:500;transition:background .3s;}
 .f1x-btn:hover{background:#fff;}
 .f1x-band-note{font-size:11.5px;letter-spacing:.08em;color:var(--on-deep-soft);flex:1;min-width:220px;}
-.f1x-band-sub{font-size:12.5px;letter-spacing:.06em;color:#F1EEE5;text-decoration:none;border-bottom:1px solid rgba(241,238,229,.55);padding-bottom:3px;transition:border-color .3s;}
+.f1x-band-sub{font-size:12.5px;letter-spacing:.08em;white-space:nowrap;color:#F1EEE5;text-decoration:none;border-bottom:1px solid rgba(241,238,229,.55);padding-bottom:3px;transition:border-color .3s;}
 .f1x-band-sub:hover{border-color:#F1EEE5;}
 
 /* --- F2（部分ベール＋浮島カード） --- */
@@ -542,7 +542,7 @@ section.free .inner{width:min(1080px,100%);margin:0 auto;}
   font-family:var(--latin);font-style:italic;font-size:11px;letter-spacing:.22em;padding:5px 12px;}
 .f3x-dots{display:none;}
 .f3x-close{margin-top:clamp(16px,2.6vh,24px);text-align:right;font-size:12.5px;letter-spacing:.06em;color:var(--ink-soft);}
-.f3x-close a{color:var(--cta);text-decoration:none;border-bottom:1px solid var(--sage);padding-bottom:2px;margin-left:6px;transition:border-color .3s;}
+.f3x-close a{display:inline-block;color:var(--cta);font-size:12.5px;letter-spacing:.08em;text-decoration:none;border-bottom:1px solid var(--sage);padding-bottom:3px;margin-left:8px;white-space:nowrap;transition:border-color .3s;}
 .f3x-close a:hover{border-color:var(--deep2);}
 
 /* --- F4（縦パネルがF3へ食い込む） --- */
@@ -560,7 +560,7 @@ section.free .inner{width:min(1080px,100%);margin:0 auto;}
 .f4x-row:first-child{border-top:1px solid var(--line);}
 .f4x-row h4{font-family:var(--serif);font-size:clamp(14.5px,1.8vw,17px);color:var(--deep2);letter-spacing:.08em;}
 .f4x-row p{font-size:12.5px;line-height:1.9;color:var(--ink-soft);}
-.f4x-row a{font-size:12px;letter-spacing:.08em;color:var(--cta);text-decoration:none;border-bottom:1px solid var(--sage);padding-bottom:2px;white-space:nowrap;transition:border-color .3s;}
+.f4x-row a{font-size:12.5px;letter-spacing:.08em;color:var(--cta);text-decoration:none;border-bottom:1px solid var(--sage);padding-bottom:3px;white-space:nowrap;transition:border-color .3s;}
 .f4x-row a:hover{border-color:var(--deep2);}
 .f4x-close{margin-top:clamp(16px,2.8vh,26px);font-size:12.5px;line-height:1.95;color:var(--ink-soft);border-left:2px solid var(--sage);padding-left:14px;}
 
@@ -628,9 +628,8 @@ section.free .inner{width:min(1080px,100%);margin:0 auto;}
 /* --- F8（下1/3ベール・CTAのみ--cta） --- */
 #c-cta .veil{background:linear-gradient(to top,rgba(50,60,52,.92) 0%,rgba(50,60,52,.72) 40%,rgba(50,60,52,.52) 66%,rgba(50,60,52,.34) 100%);}
 .f8-title{text-shadow:0 1px 20px rgba(40,46,40,.55);}
-.f8x-btn{background:var(--cta);color:#F1EEE5;border:1px solid var(--cta);padding:16px 40px;font-size:14px;letter-spacing:.12em;}
-.f8x-btn:hover{background:#2C352E;}
-.f8x-teaser{margin-top:clamp(26px,4.5vh,42px);font-family:var(--latin);font-style:italic;font-size:12px;letter-spacing:.24em;color:var(--gold);}
+.f8x-btn{background:var(--gold);color:#2E3630;border:1px solid var(--gold);padding:16px 44px;font-size:14px;letter-spacing:.12em;font-weight:500;}
+.f8x-btn:hover{background:#CDB78E;border-color:#CDB78E;}
 
 /* --- ライトボックス（間取り拡大） --- */
 .lightbox{position:fixed;inset:0;z-index:90;background:rgba(38,44,39,.9);display:grid;place-items:center;
@@ -650,6 +649,8 @@ section.free .inner{width:min(1080px,100%);margin:0 auto;}
   .f2x-in{grid-template-columns:1fr;padding:calc(48px + 36px) 18px 68px;}
   .f2x-copy h2{white-space:normal;}
   .f2x-cards{transform:none;margin-right:-14px;}
+  .f3x-close{text-align:left;}
+  .f3x-close a{display:block;margin-left:0;margin-top:8px;width:fit-content;}
   .f3x-row{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin-right:-18px;padding-right:18px;scrollbar-width:none;}
   .f3x-row::-webkit-scrollbar{display:none;}
   .f3x-card{flex:0 0 78vw;scroll-snap-align:center;}
@@ -671,7 +672,6 @@ section.free .inner{width:min(1080px,100%);margin:0 auto;}
   .f6x-spec .lbl{grid-column:1;}
   .f6x-spec .val{grid-column:2;font-size:23px;}
   .f6x-spec p{grid-column:2;}
-  .f8x-teaser{font-size:11px;}
 }
 
 </style>
@@ -796,8 +796,8 @@ section.free .inner{width:min(1080px,100%);margin:0 auto;}
   </div>
   <div class="f1x-band rv d4">
     <div class="f1x-band-in">
-      <!-- TODO: 資料請求フォーム（デジタルカタログ）URLに差し替え -->
-      <a class="f1x-btn" href="#" data-cta="f1-main">間取りと暮らし方をまとめた資料を見る</a>
+      <!-- TODO: カタログ請求フォーム（デジタルカタログ）URLに差し替え -->
+      <a class="f1x-btn" href="#" data-cta="f1-main">間取りと暮らし方をまとめたカタログを見る</a>
       <p class="f1x-band-note">3つのコアの実売プランと、素材のリストを収録しています</p>
       <!-- TODO: 来場予約ページURLに差し替え -->
       <a class="f1x-band-sub" href="#" data-cta="f1-sub">実際に体感したい方へ ─ 来場のご予約</a>
@@ -860,7 +860,7 @@ section.free .inner{width:min(1080px,100%);margin:0 auto;}
       </figure>
     </div>
     <div class="f3x-dots" id="f3dots" aria-hidden="true"><i class="act"></i><i></i><i></i></div>
-    <p class="f3x-close rv d4">3つの実際の間取りは、資料でご覧いただけます。<a href="#c-cta" data-cta="f3-doc">→ 資料を見る</a></p>
+    <p class="f3x-close rv d4">3つの実際の間取りは、カタログでご覧いただけます。<a href="#c-cta" data-cta="f3-doc">→ カタログを見る</a></p>
   </div>
 </section>
 
@@ -985,14 +985,12 @@ section.free .inner{width:min(1080px,100%);margin:0 auto;}
     <h2 class="f8-title rv d1">あなたの家の真ん中は、<br>どこですか。</h2>
     <p class="f8-lead rv d2">答えは、ご家族ごとに違います。まずは考え方と、フラッグシップモデルの間取りをご覧ください。</p>
     <div class="f8-btns rv d3">
-      <!-- TODO: 資料請求フォームURLに差し替え -->
-      <a class="btn f8x-btn" href="#" data-cta="f8-main">資料を請求する（無料）</a>
+      <!-- TODO: カタログ請求フォームURLに差し替え -->
+      <a class="btn f8x-btn" href="#" data-cta="f8-main">カタログを請求する（無料）</a>
     </div>
     <p class="f8-note rv d3">デジタルカタログと間取り集をお送りします</p>
     <!-- TODO: 来場予約ページURLに差し替え -->
     <a class="f8-sub rv d4" href="#" data-cta="f8-sub">モデルハウス・見学会のご予約はこちら</a>
-    <!-- 公開時にこの1行を削除 -->
-    <p class="f8x-teaser rv d5">Koselig-Core ─ 2026.10.01</p>
   </div>
 </section>
 
@@ -1147,12 +1145,12 @@ section.free .inner{width:min(1080px,100%);margin:0 auto;}
   <span class="lb-close" aria-hidden="true">&#215;</span>
 </div>
 
-<aside class="floatcta" id="floatcta" aria-label="資料請求">
+<aside class="floatcta" id="floatcta" aria-label="カタログ請求">
   <button class="fc-close" id="fcClose" aria-label="閉じる">&#215;</button>
-  <!-- TODO: 資料請求フォームURLに差し替え（現在はページ末尾CTAへスクロール） -->
+  <!-- TODO: カタログ請求フォームURLに差し替え（現在はページ末尾CTAへスクロール） -->
   <a href="#c-cta" data-cta="float-main">
     <b>この家の間取りを見る</b>
-    <small>資料請求（無料・1分）</small>
+    <small>カタログ請求（無料・1分）</small>
   </a>
 </aside>
 
